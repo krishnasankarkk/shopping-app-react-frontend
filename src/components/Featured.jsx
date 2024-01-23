@@ -61,7 +61,7 @@ function Featured() {
                             </div>
                             <div className="w-[30em] h-auto flex flex-col absolute m-8 bottom-10 left-10 gap-4">
                                 <span className="text-xl font-extrabold">UNBEATABLE PERFORMANCE</span>
-                                <span className='font-extrabold text-gray-700'>We've dedicated ourselves to crafting the perfect footwear for every basketball enthusiast.</span>
+                                <span className='font-extrabold text-gray-700'>We&abs;ve dedicated ourselves to crafting the perfect footwear for every basketball enthusiast.</span>
                                 <span className='font-extrabold text-5xl'>*2024</span>
                             </div>
                             <div className="w-[30em] h-auto flex flex-col absolute m-8 bottom-0 right-0 gap-2">
@@ -74,13 +74,13 @@ function Featured() {
                                 <span className='font-extrabold text-3xl'>{products[currentProductIndex].name}</span>
                                 <span className='font-bold text-3xl text-gray-600'>${products[currentProductIndex].price}</span>
                                 <div className="flex flex-row items-center gap-2">
-                                {products[currentProductIndex].colors.map((color, index) => (
+                                {/* {products[currentProductIndex].colors.map((color, index) => (
                                 <span
                                     key={index}
                                     className={`rounded-full w-10 h-10 cursor-pointer`}
                                     style={{ backgroundColor: color }}
                                 ></span>
-                                ))}
+                                ))} */}
 
 
                                     
