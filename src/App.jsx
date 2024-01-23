@@ -1,24 +1,15 @@
 // import { useState } from 'react'
-import axios from 'axios'
-import './App.css'
+// import { useEffect } from 'react'
+// import axios from 'axios'
+import Navbar from './components/navbar'
+import Featured from './components/Featured'
 
 function App() {
-  // const [count, setCount] = useState(0)
-  // Fetching data from a Django REST API endpoint using axios
-  axios.get('https://krishna0.pythonanywhere.com/users/')
-    .then(response => {
-      // Handle the response data
-      console.log(response.data);
-    })
-    .catch(error => {
-      // Handle errors
-      console.error('There was a problem with the axios request:', error);
-    });
-
   return (
-    <>
-      
-    </>
+    <div className="flex flex-col w-screen h-screen p-6 font-poppins text-gray-800">
+      <Navbar />
+      <Featured/>
+    </div>
   )
 }
 
