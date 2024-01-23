@@ -1,7 +1,4 @@
-// import { useState } from 'react'
-// import { useEffect } from 'react'
-// import axios from 'axios'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 import Featured from './components/Featured'
 
 function App() {
